@@ -2,41 +2,87 @@ ul,
 ol {
   list-style-type: none;
 }
-/* styles.css */
-
-body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  width: 115px;
+  height: 24px;
+  padding-left: 156px;
+  padding-right: 1169px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
-
-h1 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700; /* Bold */
-  font-size: 71px;
+.logo-part1 {
+  font: 700 18px / 1.16667 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
-
-h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400; /* Regular */
-  font-size: 32px;
+.logo-part2 {
+  font: 700 18px / 1.16667 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
-
-h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500; /* Medium */
-  font-size: 24px;
+.menu-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  width: 261px;
+  height: 24px;
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-
-p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700; /* Bold */
-  font-size: 15px;
+.hero {
+  width: 1440px;
+  height: 600px;
+  background: #2e2f42;
 }
-
-.raleway-bold {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700; /* Bold */
-  font-size: 2px;
+.hero-headline {
+  font: 700 56px / 1.07143 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.contacts {
+  font: 400 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.solutions {
+  width: 1128px;
+  height: 104px;
+}
+.feature {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 264px;
+  height: 104px;
+}
+.team {
+  width: 1440px;
+  height: 732px;
+}
+.member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
