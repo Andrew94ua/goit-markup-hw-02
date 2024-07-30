@@ -6,6 +6,7 @@ body {
 
 .header {
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
 }
 
 .logo {
@@ -18,7 +19,17 @@ body {
   color: #4d5ae5;
 }
 
-.logo-part {
+.web {
+  font: 700 18px / 1.16667 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.studio {
+  font: 700 18px / 1.16667 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 
@@ -160,4 +171,7 @@ ol {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+.header a {
+  text-decoration: none;
 }
