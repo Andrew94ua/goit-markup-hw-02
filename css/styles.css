@@ -5,7 +5,6 @@ body {
 }
 
 .header {
-  font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
@@ -17,6 +16,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
 .studio {
@@ -154,10 +154,6 @@ ol {
   color: #4d5ae5;
 }
 
-.footer-logo-part {
-  color: #f4f4fd;
-}
-
 .footer-paragraph {
   line-height: 1.5;
   color: #f4f4fd;
@@ -165,4 +161,10 @@ ol {
 }
 .header a {
   text-decoration: none;
+}
+.footer-studio {
+  font: 700 18px / 1.16667 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
